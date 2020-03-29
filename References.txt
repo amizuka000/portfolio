@@ -1,0 +1,8 @@
+Colors:
+Dark Blue: #44495D
+Light Blue: #e6edf9
+
+
+Cool sites:
+http://oridomi.com/#
+https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm

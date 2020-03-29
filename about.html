@@ -3,10 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Flattern - Flat and trendy bootstrap site template</title>
+  <title>Alisa Mizukami - Mechanical Engineering Senior</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="" />
   <meta name="author" content="" />
+
+
+<!-- Special css -->
+  <link href="css/scrollbg.css" rel="stylesheet" />
+
+
 
   <!-- css -->
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet">
@@ -15,17 +21,33 @@
   <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
   <link href="css/jcarousel.css" rel="stylesheet" />
   <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/cslider.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet" />
   <!-- Theme skin -->
-  <link href="skins/default.css" rel="stylesheet" />
+  <link id="t-colors" href="skins/mycolor.css" rel="stylesheet" />
   <!-- boxed bg -->
   <link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
   <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
-  <link rel="shortcut icon" href="ico/favicon.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico/favicontransp/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/favicontransp/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/favicontransp/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/favicontransp/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="ico/favicontransp/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="ico/favicontransp/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="ico/favicontransp/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="ico/favicontransp/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="ico/favicontransp/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="ico/favicontransp/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="ico/favicontransp/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="ico/favicontransp/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="ico/favicontransp/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="ico/favicontransp/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="ico/favicontransp/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="ico/favicontransp/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="ico/favicontransp/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="ico/favicontransp/mstile-310x310.png" />
 
   <!-- =======================================================
     Theme Name: Flattern
@@ -43,9 +65,11 @@
         <div class="row">
           <div class="span12">
             <ul>
-              <li><strong>We are available for any custom works this month</strong></li>
-              <li>Main office: Springville center X264, Park Ave S.01</li>
-              <li>Call us <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891</li>
+              <li>Thank you for visiting! :)</li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+              <li><a href="https://amizuka000.github.io/portfolio/" style="color:#fff"> Portfolio</a></li>
+              <li><a href="https://www.linkedin.com/in/alisa-mizukami/" style="color:#fff" target="_blank"> LinkedIn</a></li>
+              <li>alisamizukami@gmail.com</li>
             </ul>
           </div>
         </div>
@@ -53,6 +77,10 @@
     </div>
     <!-- end toggle top area -->
     <!-- start header -->
+
+
+
+
     <header>
       <div class="container">
         <!-- hidden top area toggle link -->
@@ -60,117 +88,27 @@
           <a href="#" class="toggle-link" title="Click me you'll get a surprise" data-target=".hidden-top"><i></i>Open</a>
         </div>
         <!-- end toggle link -->
+
         <div class="row nomargin">
           <div class="span12">
+<br>
+
             <div class="headnav">
-              <ul>
-                <li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i> Sign up</a></li>
-                <li><a href="#mySignin" data-toggle="modal">Sign in</a></li>
-              </ul>
+
             </div>
-            <!-- Signup Modal -->
-            <div id="mySignup" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySignupModalLabel" aria-hidden="true">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 id="mySignupModalLabel">Create an <strong>account</strong></h4>
-              </div>
-              <div class="modal-body">
-                <form class="form-horizontal">
-                  <div class="control-group">
-                    <label class="control-label" for="inputEmail">Email</label>
-                    <div class="controls">
-                      <input type="text" id="inputEmail" placeholder="Email">
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <label class="control-label" for="inputSignupPassword">Password</label>
-                    <div class="controls">
-                      <input type="password" id="inputSignupPassword" placeholder="Password">
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <label class="control-label" for="inputSignupPassword2">Confirm Password</label>
-                    <div class="controls">
-                      <input type="password" id="inputSignupPassword2" placeholder="Password">
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="controls">
-                      <button type="submit" class="btn">Sign up</button>
-                    </div>
-                    <p class="aligncenter margintop20">
-                      Already have an account? <a href="#mySignin" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Sign in</a>
-                    </p>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <!-- end signup modal -->
-            <!-- Sign in Modal -->
-            <div id="mySignin" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySigninModalLabel" aria-hidden="true">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 id="mySigninModalLabel">Login to your <strong>account</strong></h4>
-              </div>
-              <div class="modal-body">
-                <form class="form-horizontal">
-                  <div class="control-group">
-                    <label class="control-label" for="inputText">Username</label>
-                    <div class="controls">
-                      <input type="text" id="inputText" placeholder="Username">
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <label class="control-label" for="inputSigninPassword">Password</label>
-                    <div class="controls">
-                      <input type="password" id="inputSigninPassword" placeholder="Password">
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="controls">
-                      <button type="submit" class="btn">Sign in</button>
-                    </div>
-                    <p class="aligncenter margintop20">
-                      Forgot password? <a href="#myReset" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Reset</a>
-                    </p>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <!-- end signin modal -->
-            <!-- Reset Modal -->
-            <div id="myReset" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="myResetModalLabel" aria-hidden="true">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 id="myResetModalLabel">Reset your <strong>password</strong></h4>
-              </div>
-              <div class="modal-body">
-                <form class="form-horizontal">
-                  <div class="control-group">
-                    <label class="control-label" for="inputResetEmail">Email</label>
-                    <div class="controls">
-                      <input type="text" id="inputResetEmail" placeholder="Email">
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="controls">
-                      <button type="submit" class="btn">Reset password</button>
-                    </div>
-                    <p class="aligncenter margintop20">
-                      We will send instructions on how to reset your password to your inbox
-                    </p>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <!-- end reset modal -->
+
+
           </div>
         </div>
         <div class="row">
           <div class="span4">
             <div class="logo">
-              <a href="index.html"><img src="img/logo.png" alt="" class="logo" /></a>
-              <h1>Flat and trendy bootstrap template</h1>
+              <h2>
+              <a href="index.html"><img src="img/name.png" alt="Alisa Mizukami" class="logo" /></a>
+            </h2>
+            <br>
+              <h1>Mechanical Engineering Senior</h1>
+              <h1>Graduating December 2020</h1>
             </div>
           </div>
           <div class="span8">
@@ -179,58 +117,39 @@
                 <nav>
                   <ul class="nav topnav">
                     <li class="dropdown">
-                      <a href="index.html">Home <i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="index-alt2.html">Homepage 2</a></li>
-                        <li><a href="index-alt3.html">Homepage 3</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Features <i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="typography.html">Typography</a></li>
-                        <li><a href="table.html">Table</a></li>
-                        <li><a href="components.html">Components</a></li>
-                        <li><a href="animations.html">56 Animations</a></li>
-                        <li><a href="icons.html">Icons</a></li>
-                        <li><a href="icon-variations.html">Icon variations</a></li>
-                        <li class="dropdown"><a href="#">3 Sliders <i class="icon-angle-right"></i></a>
-                          <ul class="dropdown-menu sub-menu-level1">
-                            <li><a href="index.html">Nivo slider</a></li>
-                            <li><a href="index-alt2.html">Slit slider</a></li>
-                            <li><a href="index-alt3.html">Parallax slider</a></li>
-                          </ul>
-                        </li>
-                      </ul>
+                      <a href="index.html">Home </a>
                     </li>
                     <li class="dropdown active">
-                      <a href="#">Pages <i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="pricingbox.html">Pricing boxes</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li>
-                        <li><a href="404.html">404</a></li>
-                      </ul>
+                      <a href="about.html">About Me </a>
+
                     </li>
                     <li class="dropdown">
-                      <a href="#">Portfolio <i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="portfolio-2cols.html">Portfolio 2 columns</a></li>
-                        <li><a href="portfolio-3cols.html">Portfolio 3 columns</a></li>
-                        <li><a href="portfolio-4cols.html">Portfolio 4 columns</a></li>
-                        <li><a href="portfolio-detail.html">Portfolio detail</a></li>
-                      </ul>
+                      <a href="resume.html">Resume </i></a>
+
                     </li>
                     <li class="dropdown">
-                      <a href="#">Blog <i class="icon-angle-down"></i></a>
+                      <a href="projects.html">Projects <i class="icon-angle-down"></i></a>
                       <ul class="dropdown-menu">
-                        <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                        <li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
-                        <li><a href="post-left-sidebar.html">Post left sidebar</a></li>
-                        <li><a href="post-right-sidebar.html">Post right sidebar</a></li>
+                        <li><a href="projects-hanger.html">SolidWorks Simulation of a Clothes Hanger</a></li>
+                        <li><a href="projects-fireescape.html">Senior Design: Fire Escape System</a></li>
+                        <li><a href="projects-m90.html">Solid Modeling M90</a></li>
+                        <li><a href="projects-matlabflow.html">Matlab Channel Flow Simulation</a></li>
+                        <li><a href="projects-ansysfluent.html">Ansys Fluent</a></li>
+                        <li><a href="projects-iphone.html">Solid Modeling iPhone</a></li>
                       </ul>
                     </li>
-                    <li>
+
+
+                    <li class="dropdown">
+                      <a href="art.html">Art </a>
+                    </li>
+
+                    <li class="dropdown">
+
+                    </li>
+
+
+                    <li class="dropdown">
                       <a href="contact.html">Contact </a>
                     </li>
                   </ul>
@@ -243,260 +162,119 @@
       </div>
     </header>
     <!-- end header -->
+
+
+
+
+
+
+
+
     <section id="inner-headline">
       <div class="container">
         <div class="row">
           <div class="span4">
             <div class="inner-heading">
-              <h2>About us</h2>
+              <h2>About Me</h2>
             </div>
           </div>
           <div class="span8">
             <ul class="breadcrumb">
-              <li><a href="#"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
-              <li><a href="#">Pages</a><i class="icon-angle-right"></i></li>
-              <li class="active">About us</li>
+              <li><a href="index.html"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+              <li class="active">About me</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
+
+
+
+
     <section id="content">
       <div class="container">
         <div class="row">
-          <div class="span6">
-            <h2>Welcome to <strong>Flattern</strong></h2>
-            <p>
-              Ei mel semper vocent persequeris, nominavi patrioque vituperata id vim, cu eam gloriatur philosophia deterruisset. Meliore perfecto repudiare ea nam, ne mea duis temporibus. Id quo accusam consequuntur, eum ea debitis urbanitas. Nibh reformidans vim ne.
-            </p>
-            <p>
-              Iudico definiebas eos ea, dicat inermis hendrerit vel ei, legimus copiosae quo at. Per utinam corrumpit prodesset te, liber praesent eos an. An prodesset neglegentur qui, usu ancillae posidonium in, mea ex eros animal scribentur. Et simul fabellas sit.
-              Populo inimicus ne est.
-            </p>
-            <p>
-              Alii wisi phaedrum quo te, duo cu alia neglegentur. Quo nonumy detraxit cu, viderer reformidans ut eos, lobortis euripidis posidonium et usu. Sed meis bonorum minimum cu, stet aperiam qualisque eu vim, vide luptatum ei nec. Ei nam wisi labitur mediocrem.
-              Nam saepe appetere ut, veritus graecis minimum no vim. Vidisse impedit id per.
-            </p>
-          </div>
-          <div class="span6">
-            <!-- start flexslider -->
-            <div class="flexslider">
-              <ul class="slides">
-                <li>
-                  <img src="img/works/full/image-01-full.jpg" alt="" />
-                </li>
-                <li>
-                  <img src="img/works/full/image-02-full.jpg" alt="" />
-                </li>
-                <li>
-                  <img src="img/works/full/image-03-full.jpg" alt="" />
-                </li>
-              </ul>
-            </div>
-            <!-- end flexslider -->
-          </div>
-        </div>
+
+        <img src="img/works/full/elevator.png" alt="Elevator Arrows" class="center" style="width: 20%">
+
+
         <!-- divider -->
         <div class="row">
           <div class="span12">
-            <div class="solidline">
+            <div class="blankline">
             </div>
           </div>
         </div>
         <!-- end divider -->
-        <div class="row">
-          <div class="span12">
-            <h4>Talented peoples behind Flattern</h4>
-          </div>
-          <div class="span3">
-            <img src="img/dummies/team1.jpg" alt="" class="img-polaroid" />
-            <div class="roles">
-              <p class="lead">
-                <strong>Vincent Austin Jr</strong>
-              </p>
-              <p>
-                CEO - Founder
-              </p>
-            </div>
-          </div>
-          <div class="span3">
-            <img src="img/dummies/team2.jpg" alt="" class="img-polaroid" />
-            <div class="roles">
-              <p class="lead">
-                <strong>Tommy Laugher</strong>
-              </p>
-              <p>
-                Lead designer
-              </p>
-            </div>
-          </div>
-          <div class="span3">
-            <img src="img/dummies/team3.jpg" alt="" class="img-polaroid" />
-            <div class="roles">
-              <p class="lead">
-                <strong>Gabirelle Borowski</strong>
-              </p>
-              <p>
-                Customer support
-              </p>
-            </div>
-          </div>
-          <div class="span3">
-            <img src="img/dummies/team4.jpg" alt="" class="img-polaroid" />
-            <div class="roles">
-              <p class="lead">
-                <strong>Benny Strongton</strong>
-              </p>
-              <p>
-                Coffee maker
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- divider -->
-        <div class="row">
-          <div class="span12">
-            <div class="solidline">
-            </div>
-          </div>
-        </div>
-        <!-- end divider -->
-        <div class="row">
-          <div class="span6">
-            <h4>More about us</h4>
-            <div class="accordion" id="accordion2">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-							1. What we do </a>
-                </div>
-                <div id="collapseOne" class="accordion-body collapse in">
-                  <div class="accordion-inner">
-                    <p>
-                      Diam alienum oporteat ad vis, latine intellegebat cu his. Ei eros dicam commodo duo, an assum meliore eam. In sed albucius dissentiet. Sit laudem graece malorum ne, at eam omnesque expetenda pertinacia, tale meliore vim ea. Dolore legere deleniti ius
-                      at, mea nibh discere perfecto ex. Mea ea iuvaret eripuit, eos no vivendo intellegat definiebas, patrioque eloquentiam eos et.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-							2. Work process </a>
-                </div>
-                <div id="collapseTwo" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    <p>
-                      Nihil suscipit posidonium eos id. An cetero fierent insolens mel, ex sit rebum falli erroribus. Ius in nemore dolorum officiis. Et vel harum dicant, vix eius persius an. Ex eam malis postea, erat nihil consulatu nam ea. Ex quem dolores euripidis eum,
-                      tempor aperiam voluptaria has ad. Ea est persecuti dissentiet voluptatibus, at illum malorum minimum usu eum aeterno tritani.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-							3. Quality assurance </a>
-                </div>
-                <div id="collapseThree" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    <p>
-                      Vel purto oportere principes ne, ut mel graeco omnesque. Habeo justo congue mei cu, eu est molestie sensibus, oratio tibique ad mei. Admodum consetetur cu eam, nec cu doming prompta inciderint, ne vim ceteros mnesarchum scriptorem. Ex eam malis postea,
-                      erat nihil consulatu nam ea. Ex quem dolores euripidis eum, tempor aperiam voluptaria has ad. Et vel harum dicant vix.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-							4. What we can deliver </a>
-                </div>
-                <div id="collapseFour" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    <p>
-                      Diam alienum oporteat ad vis, latine intellegebat cu his. Ei eros dicam commodo duo, an assum meliore eam. In sed albucius dissentiet. Sit laudem graece malorum ne, at eam omnesque expetenda pertinacia, tale meliore vim ea. Dolore legere deleniti ius
-                      at, mea nibh discere perfecto ex. Mea ea iuvaret eripuit, eos no vivendo intellegat definiebas, patrioque eloquentiam eos et.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="span6">
-            <h4>Our expertise</h4>
-            <label>Web design:</label>
-            <div class="progress progress-info progress-striped active">
-              <div class="bar" style="width: 90%">
-              </div>
-            </div>
-            <label>Wordpress :</label>
-            <div class="progress progress-success progress-striped active">
-              <div class="bar" style="width: 60%">
-              </div>
-            </div>
-            <label>Photoshop :</label>
-            <div class="progress progress-warning progress-striped active">
-              <div class="bar" style="width: 80%">
-              </div>
-            </div>
-            <label>Ilustrator :</label>
-            <div class="progress progress-danger progress-striped active">
-              <div class="bar" style="width: 40%">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
+
+
+    <div class="bgimg-1">
+    </div>
+
+<div style="padding: 50px 80px; max-width:1200px" class="center">
+<h5>
+      Senior studying mechanical engineering at Macaulay Honors College at the City College of New York.
+</h5>
+</div>
+
+
+    <div class="bgimg-2">
+</div>
+
+<div style="padding: 50px 80px; max-width:1200px" class="center">
+<div style="position:relative;">
+  <h5>
+My exposure to math and construction through folding origami from a young age lead me to study engineering,
+    and I would love to combine it with my passion for the arts to create visually interesting and innovative designs.
+</h5>
+</div>
+</div>
+
+<div class="bgimg-3">
+</div>
+
+
+<div style="padding: 50px 80px; max-width:1200px" class="center">
+<div style="position:relative;">
+  <h5>
+Experience working on projects involving structural analysis software such as ANSYS APDL and Solidworks.
+Research experience using computational fluid dynamics software including ANSYS Fluent and OpenFOAM.
+</h5>
+</div>
+</div>
+
+<div class="bgimg-blank aligncenter" style="min-height:100px;">
+  <h5 style="padding-top:30px;">
+    Read more in my <a href="resume.html"><strong>resume</strong></a> section!
+  </h5>
+</div>
+
+
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+    <!-- FOOTER STARTS-->
     <footer>
       <div class="container">
         <div class="row">
           <div class="span3">
             <div class="widget">
-              <h5 class="widgetheading">Browse pages</h5>
-              <ul class="link-list">
-                <li><a href="#">About our company</a></li>
-                <li><a href="#">Our services</a></li>
-                <li><a href="#">Meet our team</a></li>
-                <li><a href="#">Explore our portfolio</a></li>
-                <li><a href="#">Get in touch with us</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="span3">
-            <div class="widget">
-              <h5 class="widgetheading">Important stuff</h5>
-              <ul class="link-list">
-                <li><a href="#">Press release</a></li>
-                <li><a href="#">Terms and conditions</a></li>
-                <li><a href="#">Privacy policy</a></li>
-                <li><a href="#">Career center</a></li>
-                <li><a href="#">Flattern forum</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="span3">
-            <div class="widget">
-              <h5 class="widgetheading">Flickr photostream</h5>
-              <div class="flickr_badge">
-                <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-              </div>
-              <div class="clear">
-              </div>
-            </div>
-          </div>
-          <div class="span3">
-            <div class="widget">
-              <h5 class="widgetheading">Get in touch with us</h5>
+              <h5 class="widgetheading">Contact me!</h5>
               <address>
-								<strong>Flattern studio, Pte Ltd</strong><br>
-								 Springville center X264, Park Ave S.01<br>
-								 Semarang 16425 Indonesia
+								<strong>Alisa Mizukami</strong><br>
 					 		</address>
               <p>
-                <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
-                <i class="icon-envelope-alt"></i> email@domainname.com
+              <!--  <i class="icon-phone"></i> ()numberhere <br> -->
+                <i class="icon-envelope-alt"></i> alisamizukami@gmail.com<br>
+                <i class="font-icon-social-linkedin"></i> <a href="https://www.linkedin.com/in/alisa-mizukami/" target="_blank" style="color:#fff"> &nbsp; alisa-mizukami</a>
               </p>
             </div>
           </div>
@@ -507,8 +285,9 @@
           <div class="row">
             <div class="span6">
               <div class="copyright">
+    <img src="ico/favicontransp/apple-touch-icon-60x60.png" alt="Alisa Mizukami" class="logo" /></a>
                 <p>
-                  <span>&copy; Flattern - All right reserved.</span>
+                  <span>&copy; Alisa Mizukami - All right reserved.</span>
                 </p>
                 <div class="credits">
                   <!--
@@ -517,10 +296,14 @@
                     Licensing information: https://bootstrapmade.com/license/
                     Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Flattern
                   -->
-                  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a><br>
+Vertical Timeline designed by CodyHouse.co
                 </div>
               </div>
             </div>
+
+
+            <!-- SOCIAL NETWORKING SITES
             <div class="span6">
               <ul class="social-network">
                 <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
@@ -530,6 +313,9 @@
                 <li><a href="#" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square"></i></a></li>
               </ul>
             </div>
+-->
+
+
           </div>
         </div>
       </div>
@@ -553,6 +339,8 @@
   <script src="js/modernizr.custom.js"></script>
   <script src="js/jquery.ba-cond.min.js"></script>
   <script src="js/jquery.slitslider.js"></script>
+  <script src="js/modernizr.custom.28468.js"></script>
+  <script src="js/jquery.cslider.js"></script>
   <script src="js/animate.js"></script>
 
   <!-- Template Custom JavaScript File -->

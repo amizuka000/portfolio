@@ -1,8 +1,8 @@
 /* === color === */
 
-a, a:hover,a:focus,a:active, footer a.text-link:hover, strike, footer ul.link-list li a:hover, .post-meta span a:hover, footer a.text-link, 
+a, a:hover,a:focus,a:active, footer a.text-link:hover, strike, footer ul.link-list li a:hover, .post-meta span a:hover, footer a.text-link,
 ul.meta-post li a:hover, ul.cat li a:hover, ul.recent li h6 a:hover, ul.portfolio-categ li.active a, ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.related-post li h4 a:hover, span.highlight,article .post-heading h3 a:hover,
-.navbar .nav > .active > a,.navbar .nav > .active > a:hover,.navbar .nav > li > a:hover,.navbar .nav > li > a:focus,.navbar .nav > .active > a:focus, .validation  { 
+.navbar .nav > .active > a,.navbar .nav > .active > a:hover,.navbar .nav > li > a:hover,.navbar .nav > li > a:focus,.navbar .nav > .active > a:focus, .validation  {
 	color:#5C9CC7;
 }
 
@@ -10,17 +10,17 @@ ul.meta-post li a:hover, ul.cat li a:hover, ul.recent li h6 a:hover, ul.portfoli
 .navbar .nav > .active.dropdown > a.dropdown-toggle,
 .navbar .nav > .active.dropdown > a.dropdown-toggle:hover,
 .navbar .nav > .active.dropdown > a.dropdown-toggle:focus,
-.custom-carousel-nav.right:hover, .custom-carousel-nav.left:hover, 
+.custom-carousel-nav.right:hover, .custom-carousel-nav.left:hover,
 .dropdown-menu li:hover,
 .dropdown-menu li a:hover,
 .dropdown-menu li > a:focus,
-.dropdown-submenu:hover > a, 
+.dropdown-submenu:hover > a,
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover,
 .pagination ul > .active > a:hover,
 .pagination ul > .active > a,
 .pagination ul > .active > span,
-.flex-control-nav li a:hover, 
+.flex-control-nav li a:hover,
 .flex-control-nav li a.active {
   background-color: #5C9CC7;
 }
@@ -73,7 +73,7 @@ form#contactform1 .validation {
 
 /* === Header === */
 /* --- toggle top area --- */
- .hidden-top {	
+ .hidden-top {
 	background:#5C9CC7;
 }
 #header-hidden-link a.toggle-link,
@@ -83,9 +83,9 @@ form#contactform1 .validation {
 
 
 /* carousel */
-.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover,
 .jcarousel-skin-tango .jcarousel-prev-horizontal:focus,
-.jcarousel-skin-tango .jcarousel-next-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
 .jcarousel-skin-tango .jcarousel-next-horizontal:focus
  {
 	background:#5C9CC7;
@@ -138,7 +138,7 @@ ul.clients li:hover {
 
 /* portfolio */
 .item-thumbs .hover-wrap .overlay-img {
-	background: #5C9CC7;	
+	background: #5C9CC7;
 }
 
 
@@ -196,4 +196,3 @@ ul.clients li:hover {
 }
 
 /* footer */
-

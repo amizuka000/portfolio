@@ -5,7 +5,10 @@
   Author URL: https://bootstrapmade.com
 */
 
+/*<!-- obtained from https://codepen.io/sosuke/pen/Pjoqqp -->*/
+
 /* === prettify === */
+
 
 @import url('../js/google-code-prettify/prettify.css');
 /* === fontawesome === */
@@ -53,7 +56,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.6em;
-  color: #656565;
+  color: #44495D;
 }
 
 a:active {
@@ -238,7 +241,7 @@ img.img-polaroid {
 /* --- header -- */
 
 header {
-  background: #fff;
+  background: #e6edf9;
   margin: 0;
   padding: 0;
   position: relative;
@@ -256,6 +259,7 @@ header .logo img {
 header .logo h1 {
   font-size: 14px;
   margin: 0;
+  font-weight: bold;
 }
 
 /* --- headnav menu : signup & signin --- */
@@ -759,7 +763,7 @@ section.callaction {
 ==================================== */
 
 #inner-headline {
-  background: #252525;
+  background: #44495D;
   position: relative;
   margin: 0;
   padding: 0;
@@ -1922,13 +1926,13 @@ ul.time-post li.time {
 ================================ */
 
 footer {
-  background: #111;
+  background: #44495D;
   padding: 50px 0 0 0;
-  color: #bbb;
+  color: #fff;
 }
 
 footer a {
-  color: #eee;
+  color: #44495D;
 }
 
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
@@ -1953,9 +1957,9 @@ ul.social-network li {
 }
 
 #sub-footer {
-  background: #0a0a0a;
+  background: #e6edf9;
   text-shadow: none;
-  color: #5d5d5d;
+  color: #44495D;
   padding: 0;
   padding-top: 30px;
   margin: 20px 0 0 0;
@@ -1967,13 +1971,13 @@ ul.social-network li {
 }
 
 #sub-footer span {
-  color: #c7c7c7;
+  color: #44495D;
 }
 
 .copyright {
   text-align: left;
   font-size: 12px;
-  color: #ddd;
+  color: #44495D;
 }
 
 #sub-footer ul.social-network {
@@ -2032,7 +2036,7 @@ section.demogrid .span12.nest {
 ================================ */
 
 .solidline {
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #44495D;
   margin: 0 0 30px;
 }
 
@@ -2694,6 +2698,10 @@ article img.pull-right, article .align-right {
   background: url(../img/bodybg/bg10.png) repeat left top;
 }
 
+.bgr .bg.bg11 {
+  background: url(../img/bodybg/bg11.png) repeat left top;
+}
+
 #accent_color {
   color: #fff;
   background: #ef5523;
@@ -2713,5 +2721,152 @@ article img.pull-right, article .align-right {
   text-align: center;
   outline: 0;
 }
+
+.hangerimg {
+height: auto;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.hangerimg img{
+
+max-height:300px;
+
+}
+
+.otherimg{
+  height: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.artcover {
+  height: 260px;
+  width: auto;
+  display: flex;
+}
+.artcover img {
+  object-fit: cover;
+}
+
+
+.fullwidthbuttondown {
+  display: block;
+  width: 100%;
+  height: 110px;
+  border: none;
+ background-color: #44495D;
+ text-align: center;
+ padding: 30px;
+ font-size: 25px;
+ color: #fff;
+ cursor: pointer;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.fullwidthbuttondown span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.fullwidthbuttondown span:after {
+  font-family: 'FontAwesome';
+  content:"\f078";
+  position: absolute;
+  opacity: 0;
+  bottom: -30px;
+  top:30px;
+  margin-left:-50%;
+  display: inline-block;
+
+  transition: 0.5s;
+}
+
+.fullwidthbuttondown:hover span {
+  padding-bottom: 25px;
+}
+
+.fullwidthbuttondown:hover span:after {
+  opacity: 1;
+  bottom: 0;
+}
+
+
+
+
+.fullwidthbuttonright {
+  display: block;
+  width: 100%;
+  height: 110px;
+  border: none;
+ background-color: #44495D;
+ text-align: center;
+ padding: 30px;
+ font-size: 25px;
+ color: #fff;
+ cursor: pointer;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+.fullwidthbuttonright span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.fullwidthbuttonright span:after {
+  content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.fullwidthbuttonright:hover span {
+  padding-right: 25px;
+}
+
+.fullwidthbuttonright:hover span:after {
+  opacity: 1;
+  bottom: 0;
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+/* Add some padding inside the card container */
+.cardcontainer {
+  padding: 16px 16px;
+}
+
 
 /* Theme Styler :: End */
