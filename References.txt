@@ -6,3 +6,7 @@ Light Blue: #e6edf9
 Cool sites:
 http://oridomi.com/#
 https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm
+
+
+Domain info:
+https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site
