@@ -2869,4 +2869,11 @@ max-height:300px;
 }
 
 
+.blogimg img {
+  max-height: 300px;
+padding: 15px;
+}
+
+
+
 /* Theme Styler :: End */
