@@ -690,3 +690,36 @@
 	70%{ left: 30%;  opacity: 0; }
 	100%{ left: -50%; opacity: 0; }
 }
+
+/*Alisa*/
+@media (min-width: 979px) and (max-width: 1200px) {
+	.da-slide h2 {
+		font-size:42px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.da-slide h2 {
+		font-size:42px;
+	}
+	}
+
+	@media (max-width: 767px) {
+		.da-slide h2 {
+			font-size:30px;
+		}
+		}
+
+		@media (max-width: 480px) {
+			.da-slide h2 {
+			font-size:30px;
+			width:30%;
+			}
+			}
+
+@media (max-width: 360px) {
+	.da-slide h2 {
+	font-size:30px;
+	width:30%;
+	}
+}
