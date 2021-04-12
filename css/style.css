@@ -2761,6 +2761,7 @@ max-height:300px;
 }
 .artcover img {
   object-fit: cover;
+  width: 100%;
 }
 
 
